@@ -47,7 +47,8 @@ const rpcConfig = [[
     ["Ink",       "https://rpc-qnd.inkonchain.com"],
     ["Sonic",     "https://rpc.soniclabs.com"],
     ["HyperEVM",  "https://rpc.hyperliquid.xyz/evm"],
-    ["Mezo",      "https://jsonrpc-mezo.boar.network/"]
+    ["Mezo",      "https://jsonrpc-mezo.boar.network/"],
+    ["Plume",     "https://rpc.plume.org/"],
   ]], [
   "Testnet", [
     ["Bsc",             "https://data-seed-prebsc-1-s3.binance.org:8545"],
