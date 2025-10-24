@@ -171,7 +171,7 @@ const explorerConfig = [[
         tx: "tx/",
         account: "address/"
       },
-    }],[
+    }], [
       "Stacks", {
         name: "Stacks Explorer",
         baseUrl: "https://explorer.hiro.so/",
@@ -179,8 +179,15 @@ const explorerConfig = [[
           tx: "txid/",
           account: "address/"
         }
-      }
-    ]
+      }], [
+        "Monad", {
+        name: "Monad Explorer",
+        baseUrl: "https://monadexplorer.com/",
+        endpoints: {
+          tx: "tx/",
+          account: "address/"
+        }
+      }]
   ]], [
   "Testnet", [[
     "Ethereum", {
@@ -333,7 +340,16 @@ const explorerConfig = [[
         tx: "tx/",
         account: "address/"
       },
-    }]
+    }], [
+      "Monad", {
+        name: "Monad Explorer",
+        baseUrl: "https://testnet.monadexplorer.com/",
+        endpoints: {
+          tx: "tx/",
+          account: "address/"
+        }
+      }
+    ]
   ]],
 ] as const satisfies MapLevels<["Mainnet" | "Testnet", Chain, ExplorerSettings]>;
 
