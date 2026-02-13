@@ -4325,6 +4325,24 @@ const mainnetTokenEntries = [
           decimals: 18,
           address: "0x1cd0690ff9a693f5ef2dd976660a8dafc81a109c"
         }
+      ],
+      [
+        "WETH",
+        {
+          symbol: "WETH",
+          decimals: 18,
+          address: "0xFF1B0c1243be1F420E0007122988444C01BD84A3",
+          original: "Ethereum",
+        }
+      ],
+      [
+        "WBTC",
+        {
+          symbol: "WBTC",
+          decimals: 8,
+          address: "0xDCAC994abC6C51366E6d65445614e507d771A69a",
+          original: "Ethereum",
+        }
       ]
     ]
   ]
